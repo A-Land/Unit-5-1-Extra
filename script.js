@@ -1,8 +1,7 @@
-document.getElementById('demo').style.textAlign = "center";
-document.getElementById('myh2').style.color = "blue";
- 
- function myFunction() {
-  var x = document.createElement('IMG')
+document.getElementById('demo').style.textAlign = 'center'
+document.getElementById('myh2').style.color = 'blue'
+function myFunction () {
+let x = document.createElement('IMG')
   x.setAttribute('src', 'HW.png')
   x.setAttribute('width', '304')
   x.setAttribute('height', '228')
