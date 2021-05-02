@@ -1,5 +1,5 @@
 document.getElementById('demo').style.textAlign = "center";
-document.getElementById('myH2').style.color = "blue";
+document.getElementById('myh2').style.color = "blue";
  
  function myFunction() {
   var x = document.createElement('IMG')
