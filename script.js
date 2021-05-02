@@ -1,9 +1,11 @@
-"use strict";
-function myfunction() {
-  document.getElementById('demo').style.fontSize = '25px'
-  document.getElementById('demo').style.color = 'red'
-  document.getElementById('demo').style.backgroundColor = "yellow";
-  document.getElementById('myImg').width = "300"
+document.getElementById("demo").style.textAlign = "center";
+document.getElementById("myH2").style.color = "blue";
+ 
+ function myFunction() {
+  var x = document.createElement("IMG");
+  x.setAttribute("src", "HW.png");
+  x.setAttribute("width", "304");
+  x.setAttribute("height", "228");
+  x.setAttribute("alt", "Hello World!");
+  document.body.appendChild(x);
 }
-
-
