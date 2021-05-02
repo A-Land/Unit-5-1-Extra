@@ -1,7 +1,6 @@
 document.getElementById('demo').style.textAlign = 'center'
 document.getElementById('myh2').style.color = 'blue'
-function myFunction(IMG) {
-  
+function myFunction (IMG) {
   const x = document.createElement('IMG')
   x.setAttribute('src', 'HW.png')
   x.setAttribute('width', '304')
