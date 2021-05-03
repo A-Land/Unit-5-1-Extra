@@ -1,7 +1,7 @@
 document.getElementById('demo').style.textAlign = 'center'
 document.getElementById('myh2').style.color = 'blue'
 document.getElementById('image').addEventListener('click', myImage)
-function myImage(){
+function myImage () {
   document.getElementById('img').style.display = 'block'
 }
 const x = document.createElement('IMG')
